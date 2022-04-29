@@ -1,4 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+
+#header{
+    
+    height: 90px;
+    /* background-color:aqua; */
+    padding: 0px 100px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+#logo{
+
+    display:inline-block;
+    text-align: left;
+}
+
+#header-img{
+    
+    height: 90px; 
+    image-resolution:initial;
+    object-fit:cover;
+}
+
+#nav-bar{
+
+    float:right;
+    text-align: center;
+}
+
+ul{
+    height: 90px;
+    list-style: none;
+    padding: 30px 15px; 
+    display: flex;
+    
+    
+}
+
+.nav-link{
+
+    padding: 0 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family:;
+    /* font-style:italic; */
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+}
+
+a:hover{
+    color: #49a146;
+}
+
+#home{
+
+    padding: 50px 100px 0 100px;
+    display: flex;
+    
+    
+}
+
+.home-left{
+
+    border: #49a146 solid;
+    
+}
+
+.home-right{
+
+   margin-top: 100px;
+   /* margin-left: 25px; */
+   padding: ;
+
 }
