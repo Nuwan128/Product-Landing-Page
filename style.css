@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
 :root{
+
     --dark:rgba(82,134,49,255) ;
     --light:rgba(210,234,132,255);
+    --shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    
 }
 
 *{
@@ -66,7 +69,7 @@ body{
     /* background-color:aqua; */
     padding: 0px 100px;
     background-color:transparent;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    box-shadow:var(--shadow) ;
 }
 
 #logo{
@@ -121,8 +124,14 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin-bottom: 200px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 100px;
+    /* border: var(--light) solid ;  */
+     /* background-color: rgba(210,234,132,0.2);  */
+    /* box-shadow: var(--shadow); */
+    border-radius: 10px;
+
 }
 
 #leave-logo-div{
@@ -170,9 +179,9 @@ a:hover{
     display: inline-block;
     transition: all 0.3 ease;
     margin-top: 20px;
-    width: 130px;
+    width: 140px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 50px;;
     padding: 10px 20px;
     font-weight: 600px;;
     letter-spacing: 2px;
@@ -221,15 +230,47 @@ a:hover{
       inset -4px -4px 6px 0 rgba(255,255,255,.2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
   }
-  
-  
-  
-  
 
-#services{
-    position: absolute;
-    top: 640px;
-    width: 100%;
-    height: 100px;
-    background-color: black;
+#home{
+    position: relative;
 }
+  
+#bar{
+
+    top: 635px;;
+    position: absolute;
+    width: 100%;
+    height: 105px ;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 30px 30px;
+    
+
+}
+
+.bar-item{
+
+    display: flex;
+    ustify-content:space-between;
+}
+
+.bar-p{
+
+    margin-left: 20px;
+    /* line-height: 2px; */
+    font-size: 16px;
+    width: 200px;
+    
+ } 
+.bar-2p{
+
+    font-style: normal;
+    font-size: 14px;
+}
+ .bar-img{
+     
+
+
+ }
